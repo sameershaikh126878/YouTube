@@ -276,10 +276,10 @@ async def txt_handler(bot: Client, m: Message):
              url = requests.get(f'https://api.classplusapp.com/cams/uploader/video/jw-signed-url?url={url}', headers={'x-access-token': 'eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'}).json()['url']
 
             
-            elif '/master.mpd' in url:
-             vid_id =  url.split("/")[-2]
-             url =  f"https://madxapi-d0cbf6ac738c.herokuapp.com/{vid_id}/master.m3u8?token={raw_text4}"
-
+            elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
+                pw_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDMyMjkzNDcuNDg4LCJkYXRhIjp7Il9pZCI6IjY2NDYxMzI4Y2FjZGE5YzA1YjgwZDgwNSIsInVzZXJuYW1lIjoiODQwOTMwNjI1MCIsImZpcnN0TmFtZSI6IlNhY2hpbiIsImxhc3ROYW1lIjoiS3VtYXIiLCJvcmdhbml6YXRpb24iOnsiX2lkIjoiNWViMzkzZWU5NWZhYjc0NjhhNzlkMTg5Iiwid2Vic2l0ZSI6InBoeXNpY3N3YWxsYWguY29tIiwibmFtZSI6IlBoeXNpY3N3YWxsYWgifSwicm9sZXMiOlsiNWIyN2JkOTY1ODQyZjk1MGE3NzhjNmVmIl0sImNvdW50cnlHcm91cCI6IklOIiwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzQyNjI0NTQ3fQ.Y1YSS-kew_0OxtSPGwNVq8H3xZCqq4Xn1xJ0bORkoS8"
+                url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDQwNzc1NzEuMzQ5LCJkYXRhIjp7Il9pZCI6IjYyZGVjMmNhOTgxMTdlMDAxODYxYjEzNyIsInVzZXJuYW1lIjoiOTExNzIyMDA5MCIsImZpcnN0TmFtZSI6Ik1kIiwibGFzdE5hbWUiOiJBcmJheiBTaGFpa2giLCJvcmdhbml6YXRpb24iOnsiX2lkIjoiNWViMzkzZWU5NWZhYjc0NjhhNzlkMTg5Iiwid2Vic2l0ZSI6InBoeXNpY3N3YWxsYWguY29tIiwibmFtZSI6IlBoeXNpY3N3YWxsYWgifSwiZW1haWwiOiJtZHNhbWVlcjIzNDU2Nzg5QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTc0MzQ3Mjc3MX0.78cYhb1YdaicPfgmXAbTK0xFbrKUjO6ySJW5oBicybo"
+                
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]} {my_name}'
                       
