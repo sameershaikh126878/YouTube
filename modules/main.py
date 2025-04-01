@@ -34,7 +34,7 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-my_name = "Sameer❣️"
+my_name = "ꜱᴀᴍᴇᴇʀ ᴊɪ❣️"
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
@@ -105,7 +105,7 @@ async def main():
         
 class Data:
     START = (
-        "🌟 Welcome {0}! 🌟\n\n"
+        "🌙 Welcome {0}! ✨\n\n"
     )
 # Define the start command handler
 @bot.on_message(filters.command("start"))
@@ -148,7 +148,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... Command Nhi Bataunga **Bot Made BY @A_S_9162  **🔍\n\n"
+        "Checking status Ok...➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️ **𝐓𝐗𝐓​** \n\n ​➠ 𝐂𝐚𝐧 𝐄𝐱𝐭𝐫𝐚𝐜𝐭 𝐕𝐢𝐝𝐞𝐨𝐬 & 𝐏𝐝𝐟 𝐅𝐫𝐨𝐦 𝐘𝐨𝐮𝐫 𝐓𝐞𝐱𝐭 𝐅𝐢𝐥𝐞 𝐚𝐧𝐝 𝐔𝐩𝐥𝐨𝐚𝐝 𝐭𝐨 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 \n\n ➠ 𝐔𝐬𝐞 /as1 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥e..\n\n ➠ 𝐔𝐬𝐞 /stop 𝐓𝐨 𝐬𝐭𝐨𝐩 𝐀𝐧𝐲 𝐎𝐧𝐠𝐨𝐢𝐧𝐠 𝐓𝐚𝐬𝐤 **➠ 𝐌𝐚𝐝𝐞 𝐁𝐲:- @A_S_9162  **🔍\n\n"
         "Progress:[🟩🟩🟩🟩🟩🟩🟩🟩🟩] 100%\n\n"
     )
 
@@ -158,7 +158,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["sameerji"]) )
+@bot.on_message(filters.command(["as1"]) )
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Hi I am Poweful TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -219,7 +219,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : @SAMEERJI **")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg :@SAMEER_OFFICAL_092 **")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -304,8 +304,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦ A❣️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦ A❣️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res}@SAMEER_OFFICAL_092.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━✦ ηєєт вαвα❣️✦━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} @SAMEER_OFFICAL_092.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━✦ ηєєт вαвα❣️✦━━━**'
                     
                 
                 if "drive" in url:
@@ -384,7 +384,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🌹SUCCESSFULLY DONE🌹")
+    await m.reply_text("🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
 
 # Advance
 
@@ -538,8 +538,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1}   {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} {res} @SAMEER_OFFICAL_092.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━✦𝒩𝐸𝐸𝒯 𝐵𝒜𝐵𝒜✦━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @SAMEER_OFFICAL_092.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━✦𝒩𝐸𝐸𝒯 𝐵𝒜𝐵𝒜✦━━━**'
                     
                 
                 if "drive" in url:
@@ -601,7 +601,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @captain_king_09"
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @A_S_9162"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -618,7 +618,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🌹SUCCESSFULLY DONE🌹")
+    await m.reply_text("🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
 
 
 
