@@ -304,8 +304,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} 𝗗𝗢𝗖𝗧𝗢𝗥_𝗔𝗦𝗣 .mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━✦ ηєєт вαвα❣️✦━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1}  𝗗𝗢𝗖𝗧𝗢𝗥_𝗔𝗦𝗣.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━✦ ηєєт вαвα❣️✦━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} @CHAT_WITH_SAMEER_BOT .mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━✦ ηєєт вαвα❣️✦━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1}  @CHAT_WITH_SAMEER_BOT.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━✦ ηєєт вαвα❣️✦━━━**'
                     
                 
                 if "drive" in url:
@@ -384,7 +384,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
+    await m.reply_text("🍧☝  जिंदगी का दूसरा नाम प्यार \n\n ♚💣🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
 
 # Advance
 
@@ -538,8 +538,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} {res} 𝗗𝗢𝗖𝗧𝗢𝗥_𝗔𝗦𝗣 .mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━✦𝒩𝐸𝐸𝒯 𝐵𝒜𝐵𝒜✦━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗗𝗢𝗖𝗧𝗢𝗥_𝗔𝗦𝗣 .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━✦𝒩𝐸𝐸𝒯 𝐵𝒜𝐵𝒜✦━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} {res} @CHAT_WITH_SAMEER_BOT .mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━✦𝒩𝐸𝐸𝒯 𝐵𝒜𝐵𝒜✦━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @CHAT_WITH_SAMEER_BOT .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━✦𝒩𝐸𝐸𝒯 𝐵𝒜𝐵𝒜✦━━━**'
                     
                 
                 if "drive" in url:
@@ -618,7 +618,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
+    await m.reply_text("🍧☝  जिंदगी का दूसरा नाम प्यार \n\n ♚💣🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
 
 
 
