@@ -237,7 +237,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         MR = raw_text4
         
-    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `no`")
+    await editable.edit("Now send the **Thumb url**\n**Eg :** `https://files.catbox.moe/g7dnnf.jpg`\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -384,7 +384,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🍧☝  जिंदगी का दूसरा नाम प्यार \n\n ♚💣🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
+    await m.reply_text("🍧☝  जिंदगी का दूसरा नाम प्यार ♚💣\n\n🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
 
 # Advance
 
@@ -459,7 +459,7 @@ async def txt_handler(bot: Client, m: Message):
         CR = raw_text3
         
        
-    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `no`")
+    await editable.edit("Now send the **Thumb url**\n**Eg :** https://files.catbox.moe/g7dnnf.jpg``\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -601,7 +601,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @DOCTOR_JB"
+                    Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ @DOCTOR_ASP"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -618,7 +618,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🍧☝  जिंदगी का दूसरा नाम प्यार \n\n ♚💣🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
+    await m.reply_text("🍧☝  जिंदगी का दूसरा नाम प्यार ♚💣\n\n🎀𝐀𝐋𝐋 𝐃𝐎𝐍𝐄🎀")
 
 
 
